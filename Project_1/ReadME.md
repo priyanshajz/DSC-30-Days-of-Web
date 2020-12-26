@@ -2,9 +2,14 @@
 <html>
 <head>
 <title>Project-1</title>
+<style>
+table,th,td{
+    border:1px solid black;
+    }
+</style>
 </head>
 <body>
-<h1>MY FIRST PROJECT</h1>    
+<center><h1>MY FIRST PROJECT</h1></center>    
 <img src="muskan2.jpg" alt="MY PIC" width="100" height="200"/>
 <header>
 <h1>Priyansha project</h1>
@@ -19,5 +24,20 @@ Lastname<input type="text"><br>
 Password<input type="password"><br>
 <input type="submit" value="login">
 </form>
+<table style="width:100%">
+<tr>
+ <th>E.Mail</th>
+ <th>CONTACT NO</th>
+ <th>id</th>
+ </tr>
+ <tr>
+   <td>Contactme@gmail.com</td>
+   <td>345627891</td>
+   <td>MINEID</td>
+ </tr>
+ </table><br><br><br><br><br>  
+<footer>
+Created by Priyansha 
+</footer>
 </body>
 </html>
