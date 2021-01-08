@@ -56,7 +56,7 @@ Password<input type="password"><br>
 </nav>
 <div class="p-3 mb-2 bg-warning text-blue  container.fluid Containerone"id="about" >
 <center><h1 style="color:blue;">MYSELF</h1></center>
-<img src="muskan2.jpg" alt="MY PIC" width="200" height="400"/>
+<img src="muskan2.jpg" alt="MY PIC" width="200" height="300"/>
 <h2 style="color:purple;">My name is Priyansha Jaiswal</h2>
 <h2 style="color:purple;">I am currently in 2 year</h2>
 <h2 style="color:purple;">KIIT University</h2>
