@@ -11,7 +11,7 @@ table,th,td{
 </head>
 <body bgcolor="blue">
 <b><center><h1 style ="color:red;">MY FIRST PROJECT</h1></center></b>    
-<img src="muskan2.jpg" alt="MY PIC" width="100" height="200"/>
+<img src="muskan2.jpg" alt="MY PIC" width="200" height="300"/>
 <header>
 <h1 style="color:purple;">Priyansha project</h1>
 <h2 style="color:green;">KIIT UNIVERSITY</h2>
