@@ -1,0 +1,74 @@
+<html>
+<head>
+<style>
+body{
+      backgroung-color: #1d2126;
+     color: purple;
+}
+.wrapper{ width: 400px;
+          max-width: 90%;
+         margin: 0 auto;
+}
+.wrapper label{
+     display: block;
+    margin: 0.5em 0;
+}
+.wrapper label input{
+font-size:18px;
+padding: o.5em;
+}
+.wrapper input[type="submit"]{
+font-size:25px;
+color:blue;
+}
+</style>
+<meta charset="UTF-8">
+   <meta name="viewport" content="width-device-width",initial-scale=1.0">
+   <link rel="stylesheet" href="style1.css">
+   <title>TODOLIST</title>
+</head>
+<body bgcolor="yellow">
+<h1 style="color:blue;">To Do List</h1>
+   <h3>TO Add -Click the '+' button</h3>
+   <h3>TO Delete-One Click your Task</h3>
+   <h3>TO Remove-Double Click your Task</h3>
+   <div class="container">
+    <input id="inputField" type="text"><button id="addToDo">+</button>
+     <div class="to-dos" id="toDoContainer">
+    </div>
+</div>
+<script src="main1.js"></script>
+<h1>Form Data</h1>
+<div class="wrapper">
+<form class="form">
+<label id="nameField">
+<input type="text" name="nameField" placeholder="name" required/>
+</label>
+<label id="emailField">
+<input type="email" name="emailField" placeholder="email" required/>
+</label>
+<label id="passwordField">
+<input type="password" name="passwordField" placeholder="password" required/>
+</label>
+<label id="passwordVerifyfield">
+<input type="password" name="passwordVerifyField" placeholder="Verify-password" required/>
+</label>
+<input type="submit" value="submit" name="submit"/>
+ </form>
+</div>
+<script>
+const wrapper=document.querySelector('.wrapper'),
+         form=wrapper.querySelectorALL('.form'),
+       submitInput=form[0].querySelector('input[type="submit"]');
+
+function getDataForm(e){
+e.preventDefault();
+var formData=new FormData(form[0]);
+alert( formData.get('nameField')+' - '+formData.get('emailField')+' - '+formData.get('passwordField'));
+}
+document.addEventListener('DOMContentLoaded', function(){
+ submitInput.addEventListener('click', getDataForm,false);
+}, false);
+</script>
+</body>
+</html>
